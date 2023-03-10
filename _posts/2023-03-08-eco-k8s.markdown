@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "YAML Kubernetes!"
+date:   2023-03-08 10:58:00 +0100
+categories: [containerization]
+tags: [kubernetes]
+---
+
+_Keep in mind to..._
+
+
+- Store secrets in a vault, or use Sealed Secrets
+- Deploy secrets with IaC
+- IAM if cloud provider
+- Pod security context
+- Network Policies
+- Observability
+- Logging
+- Monitoring (Control plane, nodes, deployments, etc.)
+- Namespace quotas
+- Liveness/readiness probes
+- Audit cluster
+- Policy as Code?
+- Resources requests/limits
+- RBAC
+- Use primitive types: Deployment, Statefulset, Replicaset, Daemonset, Job
+- GitOps if multiple apps
+- Useful labels
+- Pod Disruption Budgets
+- Dynamic admission/mutating controllers if you want to go that way
+
+_Useful tools_
+- Falco
+- Trivy
+- Snyk
+- Fairwinds Polaris
+- kube-hunter
+- kube-bench
+- kube-state-metrics
+
