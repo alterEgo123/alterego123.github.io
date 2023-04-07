@@ -34,3 +34,10 @@ _Actually useful plugins/tools_
 - Docker buildx
 - Dive
 - Dockle
+
+_Docker compose_
+- Enables GitOps for Docker
+- Should always be used with code
+- Environment separation by using overrides
+- Use .env to store sensitive vars
+- You can avoid redeploying containers dependencies using --no-deps
