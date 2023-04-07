@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Microservices? Really?"
+title:  "Microservices"
 date:   2023-03-10 14:58:00 +0100
 categories: [engineering]
 tags: [microservices]
